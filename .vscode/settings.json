@@ -1,3 +1,11 @@
 {
-    "python.pythonPath": "/home/surajx/VirtualEnvList/tensorflow/bin/python"
+    "python.pythonPath": "/home/surajx/tensorflow/bin/python",
+    "python.autoComplete.preloadModules": ["tensorflow", "numpy", "keras"],
+    "python.autoComplete.extraPaths": ["/home/surajx/tensorflow/lib/python3.5/site-packages"],
+    "python.workspaceSymbols.exclusionPatterns": [
+        "**/site-packages/**"
+    ],
+    "code-runner.executorMap.python": "/home/surajx/tensorflow/bin/python"
+
+    
 }
